@@ -21,11 +21,11 @@ const Header = () => {
         <div>
             <Navbar expand='md'>
             {/* <a className='navbar-brand' >Gabe</a> */}
-                <NavbarToggler onClick={toggle} />
+                {/* <NavbarToggler onClick={toggle} /> */}
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto' navbar>
                         <NavItem>
-                            <Link to='/home' className='btn m-2 btn-success'>GABE</Link>
+                            <Link to='/home' className='btn m-2 btn-success'>HOME</Link>
                         </NavItem>
                         <NavItem>
                             <Link to='/about' className='btn m-2 btn-success'>ABOUT</Link>

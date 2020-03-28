@@ -33,6 +33,7 @@ body {
   /* color: #4C7684 !important; */
   /* color: #777 !important; */
   color: black !important;
+  font-weight: bold;
 }
 
 /* Change the color of links on hover */
