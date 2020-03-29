@@ -10,20 +10,20 @@ import {
     NavLink,
 } from 'reactstrap';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
 import './style.css';
 
-const Header = () => {
-    const [isOpen, setIsOpen] = useState(false);
+const Header = (props) => {
+    const [isOpen, setIsOpen] = useState(props);
     const toggle = () => setIsOpen(!isOpen);
+
     return (
-        <div>
-            <Navbar expand='md'>
-            {/* <a className='navbar-brand' >Gabe</a> */}
-                {/* <NavbarToggler onClick={toggle} /> */}
+        <>
+            {/* <Navbar expand='md' className='header justify-content-center' fixed='top'> */}
+            <Navbar expand='md' fixed='top'>
+                {/* <NavbarBrand>Gabe</NavbarBrand> */}
+                <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
-                    <Nav className='mr-auto' navbar>
+                    <Nav className='mr-auto navbar justify-content-center fixed-top header'>
                         <NavItem>
                             <Link to='/home' className='btn m-2 btn-success'>HOME</Link>
                         </NavItem>
@@ -44,7 +44,7 @@ const Header = () => {
                     </Nav>
                 </Collapse>
             </Navbar>
-        </div>
+        </>
     );
 }
 

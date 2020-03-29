@@ -1,24 +1,4 @@
 .footer {
   /* set text properties */
   background-color: #666;
-  
-  /* sets height of footer*/
-  height: 10%;
-  
-  /* sets properties for footer border*/
-  border-top: solid;
-  border-top-color: #4C7684;
-  border-top-width: 8px;
-}
-
-.navbar {
-  /* pulls everything down to push up against bottom border */
-  padding-bottom: 0;
-  /* allows ??? to control the horizontal position */
-  padding-left: 0;
-}
-
-.nav-link {
-  color: black !important;
-  align-items: center;
 }
