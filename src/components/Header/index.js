@@ -4,10 +4,8 @@ import {
     Collapse,
     Navbar,
     NavbarToggler,
-    NavbarBrand,
     Nav,
-    NavItem,
-    NavLink,
+    NavItem
 } from 'reactstrap';
 
 import './style.css';
@@ -20,7 +18,6 @@ const Header = (props) => {
         <>
             {/* <Navbar expand='md' className='header justify-content-center' fixed='top'> */}
             <Navbar expand='md' fixed='top'>
-                {/* <NavbarBrand>Gabe</NavbarBrand> */}
                 <NavbarToggler onClick={toggle} />
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto navbar justify-content-center fixed-top header'>
