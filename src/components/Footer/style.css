@@ -1,4 +1,13 @@
 .footer {
   /* set text properties */
   background-color: #666;
+  height: 50px;
+}
+.nav-link {
+  /* pull off padding to vertically center links */
+  padding: 0 !important;
+} 
+.navbar {
+  /* pull off padding to vertically center links */
+  padding: 0 !important;
 }

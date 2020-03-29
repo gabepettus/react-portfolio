@@ -10,8 +10,8 @@ import Footer from '../../components/Footer';
 const Home = () => {
     return (
       <div>
-      <Header />
         <Container>
+      <Header />
           <section id="home" className="flex height-fix">
           <div id="pt" className="canvas"></div>
           <Row className="mt-5">
@@ -30,9 +30,9 @@ const Home = () => {
             </div>
           </div>
           </Row>
+      <Footer />
           </section>
         </Container >
-      <Footer />
       </div>
     );
 }
