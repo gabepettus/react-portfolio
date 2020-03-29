@@ -1,9 +1,6 @@
 body { 
-  background: #0f0f1f; 
-  color: whitesmoke;
-
   /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
-  padding-top: 90px
+  padding-top: 75px;
 }
 
 .flex {

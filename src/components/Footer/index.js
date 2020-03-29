@@ -13,9 +13,9 @@ import './style.css';
 
 const Footer = () => {
     return (
-        <Navbar expand='md' className="footer">
-
-            <Nav className='mr-auto' navbar>
+        <>
+        <Navbar expand='md'>
+            <Nav className='mr-auto navbar fixed-bottom justify-content-center footer'>
                 <NavItem> 
                     <NavLink className='m-2' href='https://github.com/gabepettus' target='_blank'><FontAwesomeIcon icon={faGithub} /></NavLink>
                 </NavItem>
@@ -24,6 +24,7 @@ const Footer = () => {
                 </NavItem>
             </Nav>
         </Navbar>
+        </>
     );
 }
 

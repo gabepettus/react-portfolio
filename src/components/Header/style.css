@@ -1,24 +1,6 @@
-body {
-  /* image for background */
-  background-image: url('../../assets/images/low_contrast_linen/low_contrast_linen.png');
-
-  /* font parameters */
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1em;
-
-  /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
-  padding-top: 10px;
-}
-
-.navbar {
-  /* pulls everything down to push up against bottom border */
-  padding-bottom: 0;
-  /* allows ??? to control the horizontal position */
-  padding-left: 0;
-
+.header {
   /* creates solid line for the bottom border  */
   border-bottom: solid;
-  /* border-bottom-color: #ccc; */
   border-bottom-color: #D1CB6F;
   background-color: #B8C9D1;
 }
