@@ -5,20 +5,23 @@ import {
     Navbar,
     NavbarToggler,
     Nav,
-    NavItem
+    NavItem,
+    NavbarBrand
 } from 'reactstrap';
 
 import './style.css';
 
 const Header = (props) => {
+    // const [isOpen, setIsOpen] = useState(false);
     const [isOpen, setIsOpen] = useState(props);
-    const toggle = () => setIsOpen(!isOpen);
+    // const toggle = () => setIsOpen(!isOpen);
 
     return (
         <>
             {/* <Navbar expand='md' className='header justify-content-center' fixed='top'> */}
             <Navbar expand='md' fixed='top'>
-                <NavbarToggler onClick={toggle} />
+                {/* <NavbarBrand href="/" className="mr-auto navbar header">MENU</NavbarBrand> */}
+                {/* <NavbarToggler onClick={toggle} /> */}
                 <Collapse isOpen={isOpen} navbar>
                     <Nav className='mr-auto navbar justify-content-center fixed-top header'>
                         <NavItem>
@@ -36,8 +39,6 @@ const Header = (props) => {
                         <NavItem>
                             <Link to='/contact' className='btn m-2 btn-success'>CONTACT</Link>
                         </NavItem>
-                        {/* <NavItem> <NavLink className='m-2' href='https://github.com/gabepettus' target='_blank'><FontAwesomeIcon icon={faGithub} /></NavLink> </NavItem> */}
-                        {/* <NavItem> <NavLink className='m-2' href='https://www.linkedin.com/in/gabe-p-b11016189/' target='_blank'><FontAwesomeIcon icon={faLinkedinIn} /></NavLink> </NavItem> */}
                     </Nav>
                 </Collapse>
             </Navbar>

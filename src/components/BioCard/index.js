@@ -13,7 +13,7 @@ import {
 } from 'reactstrap';
 
 import image from '../../assets/images/pictureOfMeCropped.jpg';
-// import './style.css';
+import './style.css';
 
 const BioCard = () => {
   return (
@@ -27,7 +27,7 @@ const BioCard = () => {
             <Col md="10">
               <CardBody>
                 <CardTitle className="text-success font-weight-bold">
-                  <h1>Gabriel Pettus</h1>
+                  <h1 className='red-text'>Gabriel Pettus</h1>
                 </CardTitle>
                 <CardSubtitle className="text-monspace">Developer, recovering Systems Engineer</CardSubtitle>
                 <CardText className="mt-3">
