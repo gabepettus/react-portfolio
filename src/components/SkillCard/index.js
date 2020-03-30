@@ -6,37 +6,42 @@ import {
   Col,
   Row,
   ListGroup,
-  ListGroupItem
+  ListGroupItem,
+  Container
 } from 'reactstrap';
-
-// import './style.css';
 
 const SkillCard = (props) => {
   return (
-    <>
+    <Container>
       <Row>
-        <Col>
-          <CardTitle>
-            <h4>
-              {props.data[0].category}
-            </h4>
-          </CardTitle>
-          <ListGroup>
-            <CardText>
-              {props.data[0]
-                .skills.map((item) =>
-                {
-                  return (
-                    <ListGroupItem key={item}>
-                      {item}
-                    </ListGroupItem>
-                  )
-                })}
-            </CardText>
-          </ListGroup>
-        </Col>
+        {props.data.map((group) =>
+          {
+            return (
+              <Col>
+                <CardTitle>
+                  <h4>
+                    {/* {props.data[0].category} */}
+                    {group.category}
+                  </h4>
+                </CardTitle>
+                <ListGroup>
+                  <CardText>
+                    {/* {props.data[0].skills.map((item) => */}
+                    {group.skills.map((item) =>
+                      {
+                        return (
+                          <ListGroupItem key={item}>
+                            {item}
+                          </ListGroupItem>
+                        )
+                      })}
+                  </CardText>
+                </ListGroup>
+              </Col>
+            )
+          })}
       </Row>
-    </>
+    </Container>
   );
 }
 
