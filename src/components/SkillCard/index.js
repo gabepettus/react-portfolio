@@ -10,23 +10,23 @@ import {
   Container
 } from 'reactstrap';
 
-const SkillCard = (props) => {
+import data from '../../data/skillData.json';
+
+const SkillCard = () => {
   return (
     <Container>
       <Row>
-        {props.data.map((group) =>
+        {data.map((group) =>
           {
             return (
               <Col>
                 <CardTitle>
                   <h4>
-                    {/* {props.data[0].category} */}
                     {group.category}
                   </h4>
                 </CardTitle>
                 <ListGroup>
                   <CardText>
-                    {/* {props.data[0].skills.map((item) => */}
                     {group.skills.map((item) =>
                       {
                         return (

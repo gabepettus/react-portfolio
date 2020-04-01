@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "type": "Certificate: Full Stack Web Development",
+    "cred": "Unversity of Denver, University Collage",
+    "link": "https://bootcamp.du.edu/coding/curriculum/"
+  },
+  {
+    "id": 2,
+    "type": "Certificate: Security+",
+    "cred": "CompTIA",
+    "link": "https://www.comptia.org/certifications/security"
+  },
+  {
+    "id": 3,
+    "type": "Bachelor of Science (B.S.)",
+    "cred": "Metropolitan State College of Denver",
+    "link": "https://msudenver.edu/"
+  }
+]

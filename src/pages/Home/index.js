@@ -9,7 +9,7 @@ const Home = () => {
     return (
       <div>
         <Container>
-      <Header />
+          <Header />
           <section id="home" className="flex height-fix">
           <div id="pt" className="canvas"></div>
           {/* <Row className="mt-5"> */}
@@ -28,7 +28,7 @@ const Home = () => {
             </div>
           </div>
           {/* </Row> */}
-      <Footer />
+          <Footer />
           </section>
         </Container >
       </div>

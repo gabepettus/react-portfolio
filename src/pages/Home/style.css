@@ -2,33 +2,34 @@ body {
   /* added padding to prevent navbar overlap. (100 based on browser inpector of size) */
   /* TODO fix this to match break points for mobile */
   padding-top: 75px;
+  padding-bottom: 76px;
 }
 
 .flex {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .highlight {
-    color: #e31b6d;
-    font-size: 200%;
-    font-weight: bolder;
+  color: #e31b6d;
+  font-size: 200%;
+  font-weight: bolder;
 }
 
 .button {
-    border: 2px solid #fff;
-    box-sizing: inherit;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 13pt;
-    padding: 10px 20px;
-    transition: all 0.5s;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13pt;
+  padding: 10px 20px;
+  transition: all 0.5s;
 }
 
 .page-link {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button .mdi {

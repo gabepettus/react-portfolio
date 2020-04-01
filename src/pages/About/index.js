@@ -5,8 +5,10 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import BioCard from '../../components/BioCard';
 import SkillCard from '../../components/SkillCard';
+import CredentialCard from '../../components/CredentialCard';
 
-import data from '../../data/skillData.json';
+// import skillData from '../../data/skillData.json';
+// import credData from '../../data/credData.json';
 
 const About = () => {
   return (
@@ -16,8 +18,9 @@ const About = () => {
       <h1>About</h1>
       <BioCard />
       <h1 className="mt-4">Skills</h1>
-      <SkillCard data={data} />
-
+      {/* <SkillCard data={skillData} /> */}
+      <SkillCard/>
+      <CredentialCard/>
       <Footer />
     </Container>
   );

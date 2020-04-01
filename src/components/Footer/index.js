@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    Row,
     Navbar,
     NavItem,
     NavLink,
@@ -14,6 +15,8 @@ import './style.css';
 const Footer = () => {
     return (
         <>
+        <Row>
+
         <Navbar expand='md'>
             <Nav className='mr-auto navbar fixed-bottom justify-content-center footer'>
                 <NavItem> 
@@ -24,6 +27,7 @@ const Footer = () => {
                 </NavItem>
             </Nav>
         </Navbar>
+        </Row>
         </>
     );
 }
