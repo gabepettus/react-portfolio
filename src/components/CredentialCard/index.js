@@ -22,14 +22,14 @@ const CredentialCard = () => {
           </CardTitle>
           <ListGroup>
             <CardText>
-              {data.map((item) =>
+              {data.map((credential, index) =>
                 {
                   return (
-                    <ListGroupItem key={item}>
+                    <ListGroupItem key={index} value={credential}>
                       <p>
-                        {item.type}
+                        {credential.type}
                         <br/>
-                        <a href={item.link}> {item.cred} </a>
+                        <a href={credential.link}> {credential.cred} </a>
                       </p>
                     </ListGroupItem>
                   )

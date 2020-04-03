@@ -30,9 +30,7 @@ const BioCard = () => {
                   <h1 className='red-text'>Gabriel Pettus</h1>
                 </CardTitle>
                 <CardSubtitle className="text-monspace">Developer, recovering Systems Engineer</CardSubtitle>
-                <CardText className="mt-3">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et nibh id velit tempor fringilla eget et ipsum. Sed suscipit, velit non accumsan blandit, felis dui sollicitudin risus, vitae aliquet felis sem quis enim. Quisque blandit arcu nec scelerisque scelerisque. Aenean vehicula rutrum justo commodo volutpat. Nullam vestibulum vel ipsum eget vulputate. Etiam vitae tellus est. Aliquam erat volutpat. Nulla a consequat felis. In hac habitasse platea dictumst. Integer quis gravida libero, quis eleifend nisl. Nunc eu porttitor eros. Cras scelerisque orci urna, a fringilla ligula laoreet sed.
-                </CardText>
+                <CardText className="mt-3"> Experienced Systems Engineer with a Bachelor’s degree in physics and mathematics and have completed a Full-Stack Development Bootcamp at the University of Denver. Skilled in (HTML, CSS, JavaScript, Node, React, Perl, Shell scripting, SQL, NoSQL) and extensive “soft” skills (communication, teamwork, adaptability, problem-solving, leadership). I have experience with every aspect of the software lifecycle and have worked on teams that utilize Agile, Kanban, Waterfall, and hybrid methodologies.  I have made significant design and technical contributions leading to multi-million dollar contracts. I have repeatedly been recognized by my peers and management for outstanding performance. I am currently seeking a diverse professional home in which to collaborate on elegantly-designed technologies that will enrich the lives of others. </CardText>
                 <Link to="/portfolio" className="btn m-2 btn-success">View Portfolio</Link>
                 <Link to="/resume" className="btn m-2 btn-success">View Resume</Link>
               </CardBody>
