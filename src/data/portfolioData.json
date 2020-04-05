@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "img": "weatherdash.JPG",
+    "title": "Weather Dashboard",
+    "repo": "https://github.com/gabepettus/Weather-Dashboard/",
+    "deployed": "https://gabe.pettus.github.io/Weather-Dashboard/",
+    "description": "A responsive weather dashboard application"
+  },
+  {
+    "id": 2,
+    "img": "hike-mex.JPG",
+    "title": "Hike and Mexican food finder",
+    "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "description": "An app which allows user to search by location for a hike and close mexican food"
+  }
+]

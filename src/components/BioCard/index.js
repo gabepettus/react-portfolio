@@ -27,7 +27,9 @@ const BioCard = () => {
             <Col md="10">
               <CardBody>
                 <CardTitle className="text-success font-weight-bold">
-                  <h1 className='red-text'>Gabriel Pettus</h1>
+                  <Link to="/contact" className='link-color'>
+                    <h1 className='link-color'>Gabriel Pettus</h1>
+                  </Link>
                 </CardTitle>
                 <CardSubtitle className="text-monspace">Developer, recovering Systems Engineer</CardSubtitle>
                 <CardText className="mt-3"> Experienced Systems Engineer with a Bachelor’s degree in physics and mathematics and have completed a Full-Stack Development Bootcamp at the University of Denver. Skilled in (HTML, CSS, JavaScript, Node, React, Perl, Shell scripting, SQL, NoSQL) and extensive “soft” skills (communication, teamwork, adaptability, problem-solving, leadership). I have experience with every aspect of the software lifecycle and have worked on teams that utilize Agile, Kanban, Waterfall, and hybrid methodologies.  I have made significant design and technical contributions leading to multi-million dollar contracts. I have repeatedly been recognized by my peers and management for outstanding performance. I am currently seeking a diverse professional home in which to collaborate on elegantly-designed technologies that will enrich the lives of others. </CardText>

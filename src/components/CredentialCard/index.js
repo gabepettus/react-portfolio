@@ -11,6 +11,7 @@ import {
 } from 'reactstrap';
 
 import data from '../../data/credData.json';
+import './style.css';
 
 const CredentialCard = () => {
   return (
@@ -29,7 +30,7 @@ const CredentialCard = () => {
                       <p>
                         {credential.type}
                         <br/>
-                        <a href={credential.link}> {credential.cred} </a>
+                        <a href={credential.link} className='link-color'> {credential.cred} </a>
                       </p>
                     </ListGroupItem>
                   )
