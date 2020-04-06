@@ -11,6 +11,7 @@ import {
 } from 'reactstrap';
 
 import data from '../../data/credData.json';
+import './style.css';
 
 const CredentialCard = () => {
   return (
@@ -22,14 +23,14 @@ const CredentialCard = () => {
           </CardTitle>
           <ListGroup>
             <CardText>
-              {data.map((item) =>
+              {data.map((credential, index) =>
                 {
                   return (
-                    <ListGroupItem key={item}>
+                    <ListGroupItem key={index} value={credential}>
                       <p>
-                        {item.type}
+                        {credential.type}
                         <br/>
-                        <a href={item.link}> {item.cred} </a>
+                        <a href={credential.link} className='link-color'> {credential.cred} </a>
                       </p>
                     </ListGroupItem>
                   )

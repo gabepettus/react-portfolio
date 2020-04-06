@@ -21,7 +21,7 @@ export default class Resume extends Component {
 
   render() {
     const { numPages } = this.state;
-    console.log("here",numPages);
+    // console.log("here",numPages);
     return (
     <Container>
       <Header />
