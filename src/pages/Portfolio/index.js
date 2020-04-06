@@ -22,8 +22,10 @@ const Portfolio = () => {
                 key={port.id}
                 title={port.title}
                 img={port.img}
+                alt={port.alt}
                 repo={port.repo}
-                desc={port.desc}
+                desc={port.description}
+                link={port.deployed}
               />
             );
           })}

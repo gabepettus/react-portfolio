@@ -2,6 +2,7 @@
   {
     "id": 1,
     "img": "weatherdash.JPG",
+    "alt": "Image of weather dashboard satisfing our imedate need to know if it is raining outside",
     "title": "Weather Dashboard",
     "repo": "https://github.com/gabepettus/Weather-Dashboard/",
     "deployed": "https://gabe.pettus.github.io/Weather-Dashboard/",
@@ -10,6 +11,7 @@
   {
     "id": 2,
     "img": "hike-mex.JPG",
+    "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
     "title": "Hike and Mexican food finder",
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
     "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
