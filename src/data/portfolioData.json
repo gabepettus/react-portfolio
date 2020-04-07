@@ -16,5 +16,41 @@
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
     "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
     "description": "An app which allows user to search by location for a hike and close mexican food"
+  },
+  {
+    "id": 3,
+    "img": "hike-mex.JPG",
+    "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
+    "title": "Hike and Mexican food finder",
+    "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "description": "An app which allows user to search by location for a hike and close mexican food"
+  },
+  {
+    "id": 4,
+    "img": "hike-mex.JPG",
+    "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
+    "title": "Hike and Mexican food finder",
+    "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "description": "An app which allows user to search by location for a hike and close mexican food"
+  },
+  {
+    "id": 5,
+    "img": "hike-mex.JPG",
+    "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
+    "title": "Hike and Mexican food finder",
+    "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "description": "An app which allows user to search by location for a hike and close mexican food"
+  },
+  {
+    "id": 6,
+    "img": "hike-mex.JPG",
+    "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
+    "title": "Hike and Mexican food finder",
+    "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "description": "An app which allows user to search by location for a hike and close mexican food"
   }
 ]

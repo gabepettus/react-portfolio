@@ -1,19 +1,24 @@
 import React from 'react';
-import { CardImg } from 'reactstrap';
+import { 
+  Card,
+  CardImg
+} from 'reactstrap';
 
 import './style.css';
 
-const PortCard = ({ img, alt }) => {
+const PortCard = ({ title, img, alt, repo, desc, link }) => {
 
-  let imageWithPath = (`../../data/images/${img}`);
-
-  console.log("here",imageWithPath);
+  let imageWithPath = require(`../../data/images/${img}`);
 
   return (
-
-    <div>
+    <Card className='view'>
       <CardImg src={imageWithPath} alt={alt} className='card-image' />
-    </div>
+      <div className='mask'>
+        <h2>{title}</h2>
+        <p>{desc}</p>
+          <a href='#' className='info'>More Details</a>
+      </div>
+    </Card>
   );
 }
 

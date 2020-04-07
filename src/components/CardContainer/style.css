@@ -1,0 +1,7 @@
+.view-container {
+  width: 600px;
+  float: left;
+  /* overflow: hidden; */
+  position: relative;
+  text-align: center;
+}

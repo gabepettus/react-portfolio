@@ -1,7 +1,7 @@
 .header {
   /* creates solid line for the bottom border  */
   border-bottom: solid;
-  border-bottom-color: #D1CB6F;
+  border-bottom-color: rgb(209, 203, 111);
   background-color: #B8C9D1;
 }
 
