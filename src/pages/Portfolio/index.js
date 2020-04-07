@@ -26,6 +26,8 @@ const Portfolio = () => {
                 repo={port.repo}
                 desc={port.description}
                 link={port.deployed}
+                tech={port.tech}
+                lessons={port.lessons}
               />
             );
           })}

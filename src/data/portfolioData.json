@@ -5,7 +5,9 @@
     "alt": "Image of weather dashboard satisfing our imedate need to know if it is raining outside",
     "title": "Weather Dashboard",
     "repo": "https://github.com/gabepettus/Weather-Dashboard/",
-    "deployed": "https://gabe.pettus.github.io/Weather-Dashboard/",
+    "deployed": "https://gabepettus.github.io/Weather-Dashboard/",
+    "tech": ["HTML","CSS"],
+    "lessons": "I found jesus and a stray cat",
     "description": "A responsive weather dashboard application"
   },
   {
@@ -14,7 +16,9 @@
     "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
     "title": "Hike and Mexican food finder",
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
-    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabepettus.github.io/Hiking-and-Mexican-Food/",
+    "tech": ["HTML","CSS"],
+    "lessons": "I found jesus and a stray cat",
     "description": "An app which allows user to search by location for a hike and close mexican food"
   },
   {
@@ -23,7 +27,9 @@
     "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
     "title": "Hike and Mexican food finder",
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
-    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabepettus.github.io/Hiking-and-Mexican-Food/",
+    "tech": ["HTML","CSS"],
+    "lessons": "I found jesus and a stray cat",
     "description": "An app which allows user to search by location for a hike and close mexican food"
   },
   {
@@ -32,7 +38,9 @@
     "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
     "title": "Hike and Mexican food finder",
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
-    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabepettus.github.io/Hiking-and-Mexican-Food/",
+    "tech": ["HTML","CSS"],
+    "lessons": "I found jesus and a stray cat",
     "description": "An app which allows user to search by location for a hike and close mexican food"
   },
   {
@@ -41,7 +49,9 @@
     "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
     "title": "Hike and Mexican food finder",
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
-    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabepettus.github.io/Hiking-and-Mexican-Food/",
+    "tech": ["HTML","CSS"],
+    "lessons": "I found jesus and a stray cat",
     "description": "An app which allows user to search by location for a hike and close mexican food"
   },
   {
@@ -50,7 +60,9 @@
     "alt": "Image of man and woman hiking while gazing across the valley with a look which says, I want a taco",
     "title": "Hike and Mexican food finder",
     "repo": "https://github.com/gabepettus/Hiking-and-Mexican-Food/",
-    "deployed": "https://gabe.pettus.github.io/Hiking-and-Mexican-Food/",
+    "deployed": "https://gabepettus.github.io/Hiking-and-Mexican-Food/",
+    "tech": ["HTML","CSS"],
+    "lessons": "I found jesus and a stray cat",
     "description": "An app which allows user to search by location for a hike and close mexican food"
   }
 ]
